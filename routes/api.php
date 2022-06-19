@@ -29,20 +29,4 @@ Route::controller(SalesController::class)->group(function () {
     Route::get('sales/sales-by-product-amount', 'salesByProductAmount');
     Route::get('sales/total-sales-amount', 'totalSalesAmount');
     Route::get('sales/total-sales-qty', 'totalSalesQty');
-
-    // Route::post('todo', 'store');
-    // Route::get('todo/{id}', 'show');
-    // Route::put('todo/{id}', 'update');
-    // Route::delete('todo/{id}', 'destroy');
 });
-
-
-// Route::get('/sales/sales-by-shop', [SalesController::class, 'salesByShop']);
-// Route::get('/sales/sales-by-product-qty', [SalesController::class, 'salesByProductQty']);
-// Route::get('/sales/sales-by-product-amount', [SalesController::class, 'salesByProductAmount']);
-// Route::get('/sales/total-sales-amount', [SalesController::class, 'totalSalesAmount']);
-// Route::get('/sales/total-sales-qty', [SalesController::class, 'totalSalesQty']);
-
-// Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-//     return $request->user();
-// });
